@@ -1,0 +1,74 @@
+# Person Recognition and objects recognition
+Pre requisites:
+IDE: 
+- pycharm
+
+Python libraries needed (compatible with python3)
+- opencv
+- face-recognition
+- os
+- requests
+
+Operating system: Windows 10/ Mac OS.
+- Language: Python
+- Hardware: Ram 8GB 
+
+Folder structure:
+- Data
+place your videos in this folder
+
+- Person_images
+place photo of person to detect
+
+- sample
+contains training model
+
+how to run?
+python main.py #pycharm recomended
+
+Execution output:
+when you run the script it will prompt for user input
+>> which object you want to detect
+
+Possible options: person, car, bus, truck
+
+Note: If you want to search for a specific person, enter the name of the person in "if-condition" under     
+def find_person(self, video): function
+
+# Sample run:
+Enter the object you want to find: person 
+
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Bus.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at []
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at ['/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4']
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_MKBHD.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at ['/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4', '/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_MKBHD.mp4']
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Car.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at ['/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4', '/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_MKBHD.mp4']
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Elon.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at ['/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4', '/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_MKBHD.mp4']
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Swapna1.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at ['/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4', '/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_MKBHD.mp4']
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Swapna.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at ['/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4', '/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_MKBHD.mp4']
+examining for /Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Bus1.mp4
+8 encoding images found.
+Encoding images loaded
+Detected person at ['/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_iJustin.mp4', '/Users/sitachallapalli/PycharmProjects/untprj/venv/Data/Sundar_MKBHD.mp4']
+
+Process finished with exit code 0
